@@ -4,10 +4,10 @@ public class Main {
 
         long amount = 2_000;
         boolean registered = true;
-        long expected = 100;
-        long actual = service.calculate(amount, registered);
 
-        System.out.println("Bonus: " + actual);
+        long bonus = service.calculate(amount, registered);
+
+        System.out.println("Bonus: " + bonus);
 
     }
 }
